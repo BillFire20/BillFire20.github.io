@@ -1,0 +1,643 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+/* CSS Document */
+
+/*body Section*/
+
+.body{
+font-family: 'Michroma', sans-serif;
+	text-align: center;
+}
+/*Side Navigation*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*Sticky*/
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color:white;
+  padding: 50px;
+  font-size: 20px;
+}
+
+
+/*Navigation*/
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 1em;
+	font-size: 2.0em;
+
+	}
+
+nav a{
+	font-weight: 900;
+	text-decoration: none;
+	color:white;
+	
+}
+/*Main Title Logo*/
+.coppaagency{
+	color: white;
+	font-size: 4.0em;
+}
+/*Logo*/
+.logo{
+	height: 200px;
+	width: 200px;
+	margin-top: auto;
+}
+/*Subscription Code*/
+.subscribeforcontent{
+	background: #000000;
+	font-family: 'Michroma', sans-serif;
+}
+.thanks{
+	text-align: center;
+	font-family: 'Michroma', sans-serif;
+	color: white;
+	font-size: 2.5rem;
+	
+}
+.returnback{
+	margin-left: 580px;
+}
+/*End Of Subscription*/
+
+
+/*Header*/
+header{
+  background: url( "Image/Brickmortardark.jpg");
+	margin: 0;
+	padding: 7em 0;
+
+}
+
+.headword{
+	color:white;
+}
+
+span{
+	color:darkred;
+}
+
+/*button in Header*/
+
+.button{
+	display:inline-block;
+	font-size:1.15rem;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-width:2px;
+	border-style:solid;
+	padding: .5em 1.75em;
+	}
+
+.button-accent{
+	color: darkred;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+   background:  #7E0A0C;
+	color:white;
+}
+
+/*Gallery Coding*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #7E0A0C;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Extra content after the popular listings tabel*/
+.saver{
+	font-size: 2.5em;
+}
+
+
+.after{
+	margin-top: 5.0em;
+	color:black;
+	background-image: url( "Image/royalty.jpg");
+	height: 25em;
+	padding: 6px;
+}
+
+.afterdis{
+	margin-top: 3.9em;
+}
+
+.thereafter{
+	text-align: left;
+	font-size: 2.0em;
+}
+
+/*Our Team Members Page*/
+.teamplayers{
+	background: white;
+	height: 100%;
+	margin: 0;
+	padding: 10em 0;
+		
+}
+/*Font Size For Homepage*/
+.Ayeshasize{
+	font-size: 2.5em;
+}
+
+/*Our Employees Personalized*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: darkred;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+ font-family: 'Michroma', sans-serif;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.button2:hover {
+  background-color: #555;
+}
+/*Discipline*/
+.derry{
+	font-size: 2.5em;
+}
+.discipline{
+	text-align: left;
+	font-size: 2.0em;
+}
+
+/*Icon Fa Fa and Distance*/
+
+.iconsfafa{
+	font-size: 2.0em;
+	margin-top: 3.8em;
+	margin-bottom: 10.5em;
+}
+
+.distance{
+	margin-top: 4.0em;
+}
+
+
+/*New Development*/
+
+.newdev{
+	background:  url( "Image/Royalty4.jpg");
+	height: 100%;
+	margin: 0;
+	padding: 10em 0;
+	color: black;
+}
+.bigman{
+	font-size: 2.5em;
+	margin-top: -80px;
+}
+
+.richdev{
+	float: left;
+	padding: 0 8px;
+	margin-left: 15px;
+	border: #CDCACA;
+	border:thin;
+}
+
+
+.moreinfodev{
+	font-size: 2.0em;
+	text-align: right;
+	margin: 10px;
+	padding: 0 8px;
+}
+
+.moreinfodev1{
+	font-size: 2.0em;
+	text-align: left;
+	margin: 10px;
+	padding: 0 8px;
+}
+
+/*Newsletter Code*/
+
+form {
+  border: 3px solid #f1f1f1;
+
+}
+
+.container1 {
+  padding: 20px;
+  background-color: white;
+	font-family: 'Michroma', sans-serif;
+	color:black;
+	font-size: 1.6em;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+/*Footer Design*/
+
+footer{
+	background: url("Image/Largebalck.jpg");
+	height: 300px;
+	color: white;
+	text-align: center;
+	padding:5em 0;
+	
+}
+
+
+
+.stylesi{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+
+/*Column Footer System*/
+
+
+
+[class^=col-]{
+	width: 100%;
+	margin: 1em;
+}
+
+[class^=col-]:first-child{
+	margin-top: 0;
+}
+
+.col-1{
+	width: 33.333334%;
+	float: left;
+}
+
+
+@media (min-width:40rem){
+	
+	[class^=col-]{
+	float: left;
+	padding: 0 .5em;
+}
+	
+	
+	
+[class^=col-]:first-child{
+	padding-left:0;
+}
+
+[class^=col-]{
+	padding-right:0;
+}
+.col-3{
+	width:50%;
+}
+
+.col-1{
+	width:16.6666%;
+}
+}
+
+/*==============Product Page Coding==============*/
+.sacrifit{
+	display: none;
+}
+
+.sacrifit2{
+	color: white;
+	margin-bottom: 110px;
+}
+
+/*Slideshow Gallery*/
+.bigboygal{
+	font-size: 2.5em;
+}
+.mySlides {display:none;
+}
+
+
+.paddingslid{
+margin:25px;
+}
+
+/*====End Of Big Gallery===*/
+
+/*=====Video Gallery=====*/
+
+#videos a {
+   display: block;
+   width: 25%;
+   margin-bottom: 20px;
+   box-sizing: border-box;
+   padding: 0 10px;
+   float: left;
+   cursor: pointer;
+   text-decoration: none;
+   outline: 0;
+}
+
+#videos a:hover {
+   opacity: 0.7;
+}
+
+#videos a img {
+   width: 100%;
+   height: auto;
+}
+
+#overlay {
+   background: rgba(0,0,0,0.8);
+   position:fixed;
+   top: 0;
+   right: 0;
+   left:0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 99999;
+   display: none;
+}
+
+#overlay .modal {
+   background: #fff;
+   border-radius: 5px;
+   width: 90%;
+   margin: 100px auto;
+   max-width: 800px;
+   min-height: 100px;
+   position: relative;
+   padding: 30px 20px 15px;
+}
+
+#overlay .modal #close {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   cursor: pointer;
+}
+
+#overlay iframe {
+   width: 100%;
+}
+
+.linehor{
+	color: darkred;
+}
+
+/*End Of Product*/
+
+/*=========Contact Us Code======*/
+
+/*Form Alignment*/
+
+.feedbackform{
+	text-align: left;
+	font-size: 1.1em;
+}
+
+	
+	.font{
+		font-family:  'Michroma', sans-serif; 
+		background: #F0E8CA
+	}
+	
+
+	.button7{
+		color: black;
+		font-family: 'Michroma', sans-serif; 
+	}
+	
+	.note{
+		font-size: 0.7em
+	}
+	
+	.span{
+		color: red;
+	}
+	
+	.center{
+		margin-left: 1.8em;
+	}
+	
+	.field{
+		margin-left: 25em;
+		width: 20%;
+	}
+	/*Listings stuff*/
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkred;
+}
+
+.container45 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*GeoLocation*/
+
+.geoloc{
+	float: left;
+	margin-left: 3em;
+}
+
+.geolocc1{
+	text-align: left;
+	font-size: 2.2em;
+	float: right;
+	padding: 10px;
+	margin-left: 6px;
+}
+/*Applies to all pages for font*/
+/*Font Size Consistency*/
+
+.registerfontsize{
+	font-size: 2.2em;
+
+}
+
+
+
+
+
