@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, intial-scale=1"> 
+<title>Product</title>
+	<!--Inserting CSS/Relsheet in Head-->
+	<link rel="stylesheet" type="text/css" href="Project_styles.css">
+	
+</head>
+<!--Start Of body-->
+<body class="body">
+ <!--Header Section-->
+	<section class="header">
+	<header>
+		<!--This code is only for Error Nutrilization-->
+		<h2 class="sacrifit">This Is For Satistfaction</h2>
+		<!--This code is only for Error Nutrilization-->
+		<nav>
+		<ul>
+			<li><a href="Project_Homepage_BilalFirfire.html">Home</a></li>
+			
+			<li><a href="Project_Product_BilalFirfire.html"><span>Listing</span></a></li>
+			
+			<li><a href="Project_ContactUs_BilalFirfire.html">Contact Us</a></li>
+			
+			</ul>
+		</nav>
+	<a href="Project_Homepage_BilalFirfire.html"><img src="Image/Improvedlogo.png" alt="logo" class="logo"></a>
+		</header>
+		
+</section>
+	<!--End of Header--> 
+	<!--Start of product listings-->
+	<!--Sticky Side Menu-->
+	<div class="sticky">
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Project_Homepage_BilalFirfire.html">Home</a>
+  <a href="Project_Product_BilalFirfire.html">Listings</a>
+  <a href="Project_ContactUs_BilalFirfire.html">ContactUs</a>
+</div>
+
+<div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+</div>
+	<!--Slideshow-->
+	
+	<section>
+	<h1 class="bigboygal">Our Celebrity <br><span>Listings</span></h1>
+     
+		<div class="paddingslid">
+  <img class="mySlides" src="Image/OrlandoBloom.jpg" alt="OrlandoBL" height="800" style="width:100%">
+  <img class="mySlides" src="Image/Terrycrews.jpg" alt="TerryC" height="800" style="width:100%">
+  <img class="mySlides" src="Image/Leonardo.jpg" alt="LeoDicap" height="800" style="width:100%">
+   <img class="mySlides" src="Image/NeilSawanr.jpg" alt="NeilSawant" height="800" style="width:100%">
+ <img class="mySlides" src="Image/Redzuan.jpg" alt="Redzuan" height="800" style="width:100%">
+</div>
+	<!-- height="500px" width="500px"-->	
+		
+<!--Start of Javascript for Automated Slideshow-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+		<br>
+<!--End Of Javascript and Automated Gallery-->
+	<!--Regualr listings-->
+	<!--Greenwich Village Listings-->
+		<h1 class="bigboygal">GreenWhich Village <br><span>Listings </span></h1>
+		<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/GRW1.jpg">
+      <img src="Image/GRW1.jpg" alt="Greenwhich 45th Avenue, NY" width="600" height="400">
+    </a>
+	  <div class="desc">Greenwhich 45th Avenue, NY<br><span>$13,100,000</span></div>
+  </div>
+</div>
+		
+		
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/GRW2.jpg">
+      <img src="Image/GRW2.jpg" alt="Greenwich Village 58th St" width="600" height="400">
+    </a>
+    <div class="desc">Greenwich Village 84th, NY<br><span>$8,500,499</span></div>
+  </div>
+</div>
+		
+		<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/Grerep2.jpg">
+      <img src="Image/Grerep2.jpg" alt="Greenwich Village 38th Ave, NY" width="600" height="400">
+    </a>
+    <div class="desc">Greenwich Village 38th Ave, NY<br><span>$19,500,000</span></div>
+  </div>
+</div>	
+	<!-- Note to Marker, Website is better viewed in full screen mode,as it was not fully optimized for random sizes, mainly due to its picture size. This only applies to GreeWich Village Listings, Chelsea is working fine-->
+		<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/GRW3.png">
+      <img src="Image/GRW1.jpg" alt="GreenWich 45th Avenue , NY" width="600" height="400">
+    </a>
+    <div class="desc">Greenwich 45th Ave, NY (West)<br><span>$10,100,000</span></div>
+  </div>
+</div>	
+		<div class="clearfix"></div>
+		<br>
+		<!--End Of GreenWich Village Listings-->
+		
+		<!--Chelsea Listings-->
+		<h1 class="bigboygal">Chelsea<br><span>Listings</span></h1>
+				<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/Chelsea1.jpg">
+      <img src="Image/Chelsea1.jpg" alt="Chelsea 84th 3rd, NY" width="600" height="400">
+    </a>
+	  <div class="desc">Chelsea 42nd, Hozier Lane NY<br><span>$12,800,000</span></div>
+  </div>
+</div>
+		
+		
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/Chelsea2.jpg">
+      <img src="Image/Chelsea2.jpg" alt="Carmelo Apt" width="600" height="400">
+    </a>
+    <div class="desc">Chelsea 47th Ave, Carmello NY<br><span>$31,100,000</span></div>
+  </div>
+</div>
+		
+		<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/Chelsea3.jpg">
+      <img src="Image/Chelsea3.jpg" alt="Chelsea 46th Avenue" width="600" height="400">
+    </a>
+    <div class="desc">Chelsea 46th Avenue, NY<br><span>$9,500,000</span></div>
+  </div>
+</div>
+		
+			<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/chelsea4.jpg">
+      <img src="Image/chelsea4.jpg" alt="Chelsea 38th" width="600" height="400">
+    </a>
+    <div class="desc">Chelsea 38th Ave, Cruise NY<br><span>$15,900,000</span></div>
+  </div>
+</div>	
+	<div class="clearfix"></div>
+		<br>
+		<!--End Of Chelsea Listings-->
+		<!--Start Of Soho Listings-->
+		
+		<h1 class="bigboygal">SoHo <br><span>Listings</span></h1>
+				
+				<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/SoHo1.jpg">
+      <img src="Image/SoHo1.jpg" alt="SoHo 28th Ave,NY" width="600" height="400">
+    </a>
+	  <div class="desc">SoHo 28th Ave, 45th NY<br><span>$42,500,000</span></div>
+  </div>
+</div>
+		
+		
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/SoHo2.jpg">
+      <img src="Image/SoHo2.jpg" alt="Carmelo Apt" width="600" height="400">
+    </a>
+    <div class="desc">SoHo West Ave, Armadillo NY<br><span>$35,100,000</span></div>
+  </div>
+</div>
+		
+		<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/SoHo4.jpg">
+      <img src="Image/SoHo4.jpg" alt="Soho  Avenue" width="600" height="400">
+    </a>
+    <div class="desc">SoHo South Avenue, NY<br><span>$51,500,000</span></div>
+  </div>
+</div>
+		
+			<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Image/SoHo3.jpg">
+      <img src="Image/SoHo3.jpg" alt="SoHo 84th East" width="600" height="400">
+    </a>
+    <div class="desc">SoHo 84th East, Maritime NY<br><span>$37,300,000</span></div>
+  </div>
+</div>	
+	<div class="clearfix"></div>
+		<br>
+		
+		<!--End Of Soho Listings-->
+		<!--Start of video lisitngs-->
+		<!-- Video Embedded from youtube-->
+		
+		<h1 class="bigboygal">Celebrity Home Tour<br><span>Coppa Exclusive</span></h1>
+		<p>Tour By Ryan Serhant <br> <span>Consultant Realtor</span></p>
+		<hr class="linehor">
+		
+	<!--Video One-->
+		
+		<h1>Soho <span>Apartment</span></h1>
+		<p>Trevor <span>Noah</span></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZSEONX7P2uA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+		<!--Video 2-->
+		
+		<h1>Town<span> House</span></h1>
+		<p>Lady <span>Gaga</span></p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/5wAsEZFCwfw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+		
+		<!--Video 3-->
+		<h1>Nolita <span>Condo</span></h1>
+		<p>Mitchell <span>Robinson</span></p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Ovdx7ggNq8I"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		</section>
+	  <!--End of complete gallery and listings-->
+	<!--Footer for Product-->
+		<footer>
+		
+		<div class="container3">
+		
+		<div class="col-3">
+	<p class="footsize">Coppa Distributers are operating all over the world
+		into various international districts such as Switzerland, Geneiva and Los Angeles, Beverly Hills. We are having a global expansion into countries such as Singapore, Dubai and France.countries</p>
+		</div>
+		
+	<div class="col-1">
+		<ul class="stylesi">
+		  <li><strong><span>Countries</span></strong></li>
+		<li>United States</li>
+		<li>Switzerland</li>
+		<li>France</li>
+		</ul>
+		</div>
+		
+		
+		<div class="col-1">
+	<ul class="stylesi">
+		<li><strong><span>Affliates</span></strong></li>
+		<li>California Housing State</li>
+		<li>Genieva World Housing</li>
+		<li>Manhatten Housing Districts</li>
+		</ul>
+		</div>
+		</div>
+		</footer>
+	
+		<!--Script for sidebar-->
+	<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+		
+
+		
+</script>
+		
+	
+	
+	
+</body>
+</html>
